@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="0" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_4" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_6" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="3" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_4_4_JumpandRunMovement" classname="scripts.Design_4_4_JumpandRunMovement" desc="Allows the actor to run and jump while on the ground." description="Allows the actor to run and jump while on the ground." design="true" drawOrder="0" id="4" name="Jump and Run Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Right Control" hidden="false" id="34" name="_RightControl" order="10"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Left Control" hidden="false" id="33" name="_LeftControl" order="9"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the control attributes will be used to control the movement.&lt;br /&gt;&#10;If unselected, the control attributes are ignored and the movement can be controlled by triggering custom events. &#10;Trigger the events &lt;var&gt;MoveLeft&lt;/var&gt;, &lt;var&gt;MoveRight&lt;/var&gt;, or &lt;var&gt;Jump&lt;/var&gt; to make the actor move as if the keys were pressed." dropdown="" fullname="Use Controls" hidden="false" id="38" name="_UseControls" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Move" hidden="true" id="37" name="_Move" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Jump" hidden="true" id="42" name="_Jump" order="2"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="On Ground" hidden="true" id="43" name="_OnGround" order="5"/>
+        <number default="15.0" defaultValue="15.0" desc="The maximum speed at which the actor can run." dropdown="" fullname="Maximum Running Speed" hidden="false" id="11" name="_MaximumRunningSpeed" order="13"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Jump Control" hidden="false" id="41" name="_JumpControl" order="11"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Run Right Animation" hidden="false" id="47" name="_RunRightAnimation" order="20"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="25.0" defaultValue="25.0" desc="The force used for jumping." dropdown="" fullname="Jumping Force" hidden="false" id="45" name="_JumpingForce" order="14"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Idle Left Animation" hidden="false" id="50" name="_IdleLeftAnimation" order="17"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Idle Right Animation" hidden="false" id="49" name="_IdleRightAnimation" order="18"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Run Left Animation" hidden="false" id="48" name="_RunLeftAnimation" order="19"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Facing Left" hidden="true" id="55" name="_FacingLeft" order="7"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Jump Left Animation" hidden="false" id="54" name="_JumpLeftAnimation" order="21"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Jump Right Animation" hidden="false" id="53" name="_JumpRightAnimation" order="22"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Jumping" hidden="true" id="52" name="_Jumping" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Was Jump" hidden="true" id="58" name="_WasJump" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Jump Higher" hidden="true" id="57" name="_JumpHigher" order="4"/>
+        <boolean default="false" defaultValue="false" desc="If selected, use the &lt;var&gt;Jump&lt;/var&gt; animations while falling, otherwise use the &lt;var&gt;Idle&lt;/var&gt; animations." dropdown="" fullname="Jump Animation When Falling" hidden="false" id="56" name="_JumpAnimationWhenFalling" order="23"/>
+        <number default="50" defaultValue="50" desc="The force used for running." dropdown="" fullname="Running Force" hidden="false" id="63" name="_RunningForce" order="12"/>
+        <number default="0.2" defaultValue="0.2" desc="Holding down the jump key longer than this will not make the actor jump higher. Only used if &lt;var&gt;Variable Jump&lt;/var&gt; is selected." dropdown="" fullname="Variable Jump Duration" hidden="false" id="62" name="_VariableJumpDuration" order="16"/>
+        <boolean default="false" defaultValue="false" desc="If selected, the jumping height will depend on how long the &lt;var&gt;Jump&lt;/var&gt; key is pressed." dropdown="" fullname="Variable Jump" hidden="false" id="60" name="_VariableJump" order="15"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="4" name="event-custom" order="5" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="5" name="event-custom" order="6" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="7" name="event-custom" order="7" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="8" name="collide" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_5_5_CameraFollowsPlayer" classname="scripts.Design_5_5_CameraFollowsPlayer" desc="" description="" design="true" drawOrder="0" id="5" name="Camera Follows Player" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_6_6_DieInPitAndReload" classname="scripts.Design_6_6_DieInPitAndReload" desc="When the actor falls into a &quot;pit&quot; (e.g. off the bottom of the scene), it will be killed and the scene will reload." description="When the actor falls into a &quot;pit&quot; (e.g. off the bottom of the scene), it will be killed and the scene will reload." design="true" drawOrder="0" id="6" name="Die In Pit And Reload" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="3" name="_OutTime" order="2"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="4" name="_InTime" order="3"/>
+        <text default="" defaultValue="" desc="The style to use for the reload transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="5" name="_TransitionStyle" order="1"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+            <event displayName="Reload" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_7_7_DieOnCollisionWithGroup" classname="scripts.Design_7_7_DieOnCollisionWithGroup" desc="Attach to an actor to make it die when it collides with an actor of a specific collision group." description="Attach to an actor to make it die when it collides with an actor of a specific collision group." design="true" drawOrder="0" id="7" name="Die On Collision With Group" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actorgroup default="" defaultValue="" desc="When the actor collides with an actor, it will die if the other actor is of from this group." dropdown="" fullname="Group" hidden="false" id="2" name="_Group" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Score Modifier" hidden="false" id="3" name="_ScoreModifier" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Collision" enabled="true" id="1" name="event-collide-actortogroup" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_8_8_ReloadSceneOnDeath" classname="scripts.Design_8_8_ReloadSceneOnDeath" desc="Reload the scene when this actor dies." description="Reload the scene when this actor dies." design="true" drawOrder="0" id="8" name="Reload Scene On Death" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="1" name="_OutTime" order="2"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="2" name="_InTime" order="3"/>
+        <text default="" defaultValue="" desc="The style to use for the reload transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="3" name="_TransitionStyle" order="1"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor Created" enabled="true" id="1" name="event-actor-create-kill" order="1" repeats="true"/>
+            <event displayName="Reload" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_13" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" name="ActorEvents_15" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_11_11_SwitchSceneButton" classname="scripts.Design_11_11_SwitchSceneButton" desc="A button to switch to a different scene." description="A button to switch to a different scene." design="true" drawOrder="0" id="11" name="Switch Scene Button" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <animation default="" defaultValue="" desc="Animation for the button in an unpressed state." dropdown="" fullname="Normal Animation" hidden="false" id="1" name="_NormalAnimation" order="6"/>
+        <animation default="" defaultValue="" desc="Animation for the button in an pressed-down state." dropdown="" fullname="Pressed Animation" hidden="false" id="4" name="_PressedAnimation" order="7"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Down" hidden="true" id="5" name="_Down" order="1"/>
+        <animation default="" defaultValue="" desc="Animation for the button in a focused state. Not used in mobile games." dropdown="" fullname="Hover Animation" hidden="false" id="6" name="_HoverAnimation" order="8"/>
+        <scene default="" defaultValue="" desc="The scene to switch to." dropdown="" fullname="Next Scene" hidden="false" id="9" name="_NextScene" order="2"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="10" name="_OutTime" order="4"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="11" name="_InTime" order="5"/>
+        <text default="" defaultValue="" desc="The style to use for the switch scene transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="12" name="_TransitionStyle" order="3"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="3" name="event-mouse-enter-exit-actor" order="3" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="5" name="event-mouse-enter-exit-actor" order="5" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="6" name="event-mouse-enter-exit-actor" order="6" repeats="true"/>
+            <event displayName="SwitchScene" enabled="true" id="15" name="event-custom" order="15" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="12" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_13_13_ScoreManager" classname="scripts.Design_13_13_ScoreManager" desc="Attach this behavior to your scenes to track the score." description="Attach this behavior to your scenes to track the score." design="true" drawOrder="0" id="13" name="Score Manager" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <font default="" defaultValue="" desc="Select the font to use when displaying the score." dropdown="" fullname="Score Font" hidden="false" id="1" name="_ScoreFont" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="Horizontal offset from the top left corner of the screen to display the score." dropdown="" fullname="X Offset" hidden="false" id="2" name="_XOffset" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="Vertical offset from the top left corner of the screen to display the score." dropdown="" fullname="Y Offset" hidden="false" id="3" name="_YOffset" order="4"/>
+        <number default="0.0" defaultValue="0.0" desc="Minimum number of digits to display on screen.  Score will be padded on the left with zeros if the current score does not use up all digits." dropdown="" fullname="Minimum Digits" hidden="false" id="4" name="_MinimumDigits" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Score" hidden="true" id="6" name="_CurrentScore" order="6"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="Game Attribute" hidden="true" id="7" name="_GameAttribute" order="7"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="Formatted Score" hidden="true" id="8" name="_FormattedScore" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Length" hidden="true" id="9" name="_CurrentLength" order="9"/>
+        <boolean default="false" defaultValue="false" desc="Should the score be persistent? (e.g. the same between scenes)." dropdown="" fullname="Persistent?" hidden="false" id="10" name="_Persistent" order="0"/>
+        <blocks>
+            <receiver blockID="22" id="1"/>
+            <receiver blockID="21" id="2"/>
+            <receiver blockID="24" id="3"/>
+            <receiver blockID="503" id="4"/>
+            <receiver blockID="17" id="5"/>
+            <receiver blockID="20" id="6"/>
+            <receiver blockID="19" id="7"/>
+            <receiver blockID="25" id="8"/>
+            <receiver blockID="18" id="9"/>
+            <receiver blockID="23" id="10"/>
+        </blocks>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="3" name="draw" order="3" repeats="true"/>
+            <event displayName="IncrementScore" enabled="true" id="4" name="receiver-1-7" order="7" repeats="true"/>
+            <event displayName="DecrementScore" enabled="true" id="5" name="receiver-2-8" order="8" repeats="true"/>
+            <event displayName="SetScoreFont" enabled="true" id="7" name="receiver-3-9" order="9" repeats="true"/>
+            <event displayName="SetDrawOffset" enabled="true" id="8" name="receiver-5-4" order="10" repeats="true"/>
+            <event displayName="GetXOffset" enabled="true" id="9" name="receiver-6-5" order="12" repeats="true"/>
+            <event displayName="GetYOffset" enabled="true" id="10" name="receiver-7-6" order="13" repeats="true"/>
+            <event displayName="GetScore" enabled="true" id="12" name="receiver-8-2" order="14" repeats="true"/>
+            <event displayName="SetScore" enabled="true" id="13" name="receiver-9-3" order="15" repeats="true"/>
+            <event displayName="GetFont" enabled="true" id="14" name="event-custom-block" order="16" repeats="true"/>
+            <event displayName="UpdateGlobalScore" enabled="true" id="15" name="event-custom" order="5" repeats="true"/>
+            <event displayName="FormatScore" enabled="true" id="16" name="event-custom" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_14_14_SwitchSceneonEnterRegion" classname="scripts.Design_14_14_SwitchSceneonEnterRegion" desc="Switch scene when an actor enters a region." description="Switch scene when an actor enters a region." design="true" drawOrder="0" id="14" name="Switch Scene on Enter Region" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <region default="" defaultValue="" desc="The region which will trigger the scene switch." dropdown="" fullname="Region" hidden="false" id="1" name="_Region" order="2"/>
+        <scene default="" defaultValue="" desc="The scene to switch to." dropdown="" fullname="Next Scene" hidden="false" id="2" name="_NextScene" order="3"/>
+        <actor default="" defaultValue="" desc="The actor that will trigger the scene switch when entering the region." dropdown="" fullname="Actor" hidden="false" id="4" name="_Actor" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="In Region" hidden="true" id="7" name="_InRegion" order="0"/>
+        <boolean default="false" defaultValue="false" desc="If selected, only switch scene, when &lt;var&gt;Switch Control&lt;/var&gt; is pressed, while the actor is within the region." dropdown="" fullname="Only Switch On Key Press" hidden="false" id="8" name="_OnlySwitchOnKeyPress" order="4"/>
+        <control default="" defaultValue="" desc="The Control to trigger the scene switch if &lt;var&gt;Only Switch On Key Press&lt;/var&gt; is selected." dropdown="" fullname="Switch Control" hidden="false" id="9" name="_SwitchControl" order="5"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="10" name="_OutTime" order="7"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="11" name="_InTime" order="8"/>
+        <text default="" defaultValue="" desc="The style to use for the switch scene transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="12" name="_TransitionStyle" order="6"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="SwitchScene" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_2" classname="scripts.SceneEvents_2" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="15" name="SceneEvents_2" oid="-1" package="scripts." sceneid="2" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

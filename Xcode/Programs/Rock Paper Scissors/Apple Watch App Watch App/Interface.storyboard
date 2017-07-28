@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Apple_Watch_App_Watch_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="50" alignment="left" id="mKR-z8-vt5">
+                            <items>
+                                <button width="0.33333332999999998" height="1" alignment="left" backgroundImage="rock" id="3is-gJ-sQB">
+                                    <connections>
+                                        <action selector="rockChosen" destination="AgC-eL-Hgc" id="br5-QE-bQt"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33333333329999998" height="1" alignment="left" backgroundImage="paper" id="DAw-cm-LsG">
+                                    <connections>
+                                        <action selector="paperChosen" destination="AgC-eL-Hgc" id="Jpb-kC-7RJ"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33333333329999998" height="1" alignment="left" backgroundImage="scissors" id="WM3-23-mUb">
+                                    <connections>
+                                        <action selector="scissorsChosen" destination="AgC-eL-Hgc" id="eby-aw-1hl"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <color key="backgroundColor" white="0.92444196428571423" alpha="1" colorSpace="calibratedWhite"/>
+                        </group>
+                        <imageView width="83" height="75" alignment="center" image="paper" id="N4K-lB-yyo"/>
+                        <label alignment="center" text="Make A Choice!" textAlignment="center" id="5kI-WP-iem"/>
+                    </items>
+                    <connections>
+                        <outlet property="resultLabel" destination="5kI-WP-iem" id="8oW-Ep-62O"/>
+                        <outlet property="watchChoice" destination="N4K-lB-yyo" id="QzE-7Y-bYE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="386" y="298.75"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Apple_Watch_App_Watch_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="2" id="18" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Action Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="5" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="8" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="11" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="14" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="19" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="43" name="Arrow Button" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="96" id="22" name="bad car" shared="false" width="96">
+        <anim across="1" down="1" durations="40" height="96" id="0" loop="true" name="Down" numframes="1" originx="16" originy="16" sync="false" version="2" width="96">
+            <poly data="4,0,0,96,0,96,96,0,96" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-27" blocktype="ACTION" code="sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_DecrementScore&quot;, [~]);" desc="" global="false" gui="Decrement Score By %0" id="27" message="DecrementScore" name="DecrementScore" oid="-1" return="VOID" shared="false" snippetID="20">
+        <blank name="Amount" order="0" type="NUMBER"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="2" id="13" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Down Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="14" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="7" id="34" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Enemy Lazer" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="35" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="13" id="35" name="Enemy Lazer" shared="false" width="5">
+        <anim across="1" down="1" durations="100" height="13" id="0" loop="true" name="Animation 0" numframes="1" originx="2" originy="6" sync="false" version="2" width="5">
+            <poly data="4,0,0,5,0,5,13,0,13" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-29" blocktype="NORMAL" code="cast((sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_GetFont&quot;)), Font)" desc="Get the font used. Use for if you are setting up labels to retain consistency across Flash and other platforms." global="false" gui="Get Font" id="29" message="GetFont" name="GetFont" oid="-1" return="FONT" shared="false" snippetID="20"/>
+    <custom-block blocktag="custom-31" blocktype="NORMAL" code="cast((sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_GetScore&quot;)), Float)" desc="" global="false" gui="Get Current Score" id="31" message="GetScore" name="GetScore" oid="-1" return="NUMBER" shared="false" snippetID="20"/>
+    <custom-block blocktag="custom-26" blocktype="NORMAL" code="cast((sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_GetXOffset&quot;)), Float)" desc="" global="false" gui="Get Score Drawing X Offset" id="26" message="GetXOffset" name="GetXOffset" oid="-1" return="NUMBER" shared="false" snippetID="20"/>
+    <custom-block blocktag="custom-25" blocktype="NORMAL" code="cast((sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_GetYOffset&quot;)), Float)" desc="" global="false" gui="Get Score Drawing Y Offset" id="25" message="GetYOffset" name="GetYOffset" oid="-1" return="NUMBER" shared="false" snippetID="20"/>
+    <custom-block blocktag="custom-28" blocktype="ACTION" code="sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_IncrementScore&quot;, [~]);" desc="" global="false" gui="Increment Score By %0" id="28" message="IncrementScore" name="IncrementScore" oid="-1" return="VOID" shared="false" snippetID="20">
+        <blank name="Amount" order="0" type="NUMBER"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="5" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Lazer" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="13" id="33" name="Lazer" shared="false" width="5">
+        <anim across="1" down="1" durations="100" height="13" id="0" loop="true" name="Animation 0" numframes="1" originx="2" originy="6" sync="false" version="2" width="5">
+            <poly data="4,0,0,5,0,5,13,0,13" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="2" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Left Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="3" id="40" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Play" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="41" static="false">
+        <snippets>
+            <s enabled="true" id="29">
+                <prop id="1" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val=""/>
+                <prop id="9" list="0" val="0"/>
+                <prop id="10" list="0" val="0.5"/>
+                <prop id="11" list="0" val="0.5"/>
+                <prop id="12" list="0" val="Fade"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="41" name="Play" shared="false" width="192">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="96" originy="32" sync="false" version="2" width="192">
+            <poly data="4,0,0,192,0,192,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="0" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="RedCar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="15">
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val="20"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="112" id="1" name="RedCar" shared="false" width="72">
+        <anim across="1" down="1" durations="100" height="112" id="0" loop="true" name="Animation 0" numframes="1" originx="105" originy="105" sync="false" version="2" width="72">
+            <poly data="4,0,0,72,0,72,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="112" id="1" loop="true" name="Animation 1" numframes="1" originx="56" originy="40" sync="false" version="2" width="80">
+            <poly data="4,0,0,80,0,80,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="112" id="2" loop="true" name="Animation 2" numframes="1" originx="56" originy="40" sync="false" version="2" width="80">
+            <poly data="4,0,0,80,0,80,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="45" name="RedCar" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="true" name="Animation 0" numframes="1" originx="105" originy="105" sync="false" version="2" width="100">
+            <poly data="4,0,0,72,0,72,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="2" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Right Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <tileset across="7" atlasID="0" desc="" down="1" id="2" name="Road Tile" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100,100,100,100,100" frames="6" id="6" order="-1"/>
+    </tileset>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="24" id="16" name="sdfasdasd" shared="false" width="24">
+        <anim across="4" down="4" durations="80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80" height="96" id="0" loop="true" name="Animation 0" numframes="16" originx="12" originy="12" sync="false" version="2" width="96">
+            <poly data="4,0,0,24,0,24,24,0,24" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-23" blocktype="ACTION" code="sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_SetDrawOffset&quot;, [~,~]);" desc="" global="false" gui="Set Score Drawing Offset to X %0 Y %1" id="23" message="SetDrawOffset" name="SetDrawOffset" oid="-1" return="VOID" shared="false" snippetID="20">
+        <blank name="Horizontal" order="0" type="NUMBER"/>
+        <blank name="Vertical" order="1" type="NUMBER"/>
+    </custom-block>
+    <custom-block blocktag="custom-24" blocktype="ACTION" code="sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_SetScore&quot;, [~]);" desc="" global="false" gui="Set Current Score To %0" id="24" message="SetScore" name="SetScore" oid="-1" return="VOID" shared="false" snippetID="20">
+        <blank name="Score" order="0" type="NUMBER"/>
+    </custom-block>
+    <custom-block blocktag="custom-30" blocktype="ACTION" code="sayToScene(&quot;Score Manager&quot;, &quot;_customBlock_SetScoreFont&quot;, [~]);" desc="" global="false" gui="Set Score Font To %0" id="30" message="SetScoreFont" name="SetScoreFont" oid="-1" return="VOID" shared="false" snippetID="20">
+        <blank name="Font" order="0" type="FONT"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="true" fric="0.2" gid="0" id="44" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Shield" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="45" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="31" fixedrot="false" fric="0.2" gid="2" id="42" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ShieldButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="43" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="false" desc="It's a coin.  It spins." eventsnippetid="10" fixedrot="true" fric="0.2" gid="4" id="15" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Spinning Coin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="16" static="false">
+        <snippets>
+            <s enabled="true" id="19">
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="1"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="25" fixedrot="false" fric="0.2" gid="3" id="36" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Stencyl Book Start Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="37" static="false">
+        <snippets>
+            <s enabled="true" id="29">
+                <prop id="1" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val=""/>
+                <prop id="9" list="0" val="0"/>
+                <prop id="10" list="0" val="0.5"/>
+                <prop id="11" list="0" val="0.5"/>
+                <prop id="12" list="0" val="Fade"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="97" id="37" name="Stencyl Book Start Button" shared="false" width="184">
+        <anim across="1" down="1" durations="100" height="97" id="0" loop="true" name="Start" numframes="1" originx="92" originy="48" sync="false" version="2" width="184">
+            <poly data="4,0,0,184,0,184,97,0,97" density="0.1" fric="0.2" gid="-1000" id="0" name="Start" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.13" gid="6" id="21" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Super Car" oid="-1" pausable="true" physicsMode="0" rest="0.17" shared="false" sprite="22" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="7" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Up Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="38" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="You Win" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="39" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="48" id="39" name="You Win" shared="false" width="160">
+        <anim across="1" down="1" durations="100" height="48" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="160">
+            <poly data="4,0,0,160,0,160,48,0,48" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>

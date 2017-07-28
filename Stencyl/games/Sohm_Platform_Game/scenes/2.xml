@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="15" extheight="384" extwidth="1344" extx="-32" exty="-32" format="3.3.0" gravx="-0.0" gravy="85.0" height="320" id="2" name="Level 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1280">
+    <layers>
+        <grad-bg b1="255" b2="255" g1="204" g2="255" r1="153" r2="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="26" id="0" name="Region 0" pts="4,36.0,0.0,36.0,26.0,0.0,26.0,0.0,0.0" r="64" type="box" w="36" x="1239" y="33"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="4" id="6" name="Mr Gnome 1" sx="1.0" sy="1.0" x="70" y="254" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="4" id="6" name="Mr Gnome 2" sx="1.0" sy="1.0" x="118" y="244" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="6" name="Mr Gnome 3" sx="1.0" sy="1.0" x="165" y="240" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="6" name="Mr Gnome 4" sx="1.0" sy="1.0" x="214" y="233" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="6" name="Mr Gnome 5" sx="1.0" sy="1.0" x="260" y="238" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="6" name="Mr Gnome 9" sx="1.0" sy="1.0" x="150" y="169" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="6" name="Mr Gnome 10" sx="1.0" sy="1.0" x="187" y="168" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="4" id="6" name="Mr Gnome 12" sx="1.0" sy="1.0" x="253" y="177" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="6" name="Mr Gnome 15" sx="1.0" sy="1.0" x="257" y="108" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="4" id="6" name="Mr Gnome 21" sx="1.0" sy="1.0" x="231" y="115" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="5" id="4" name="Coin 23" sx="1.0" sy="1.0" x="24" y="221" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="6" name="Mr Gnome 22" sx="1.0" sy="1.0" x="264" y="57" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="5" id="4" name="Coin 25" sx="1.0" sy="1.0" x="84" y="168" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="5" id="4" name="Coin 24" sx="1.0" sy="1.0" x="60" y="200" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="5" id="4" name="Coin 27" sx="1.0" sy="1.0" x="140" y="98" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="5" id="4" name="Coin 26" sx="1.0" sy="1.0" x="110" y="135" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="5" id="4" name="Coin 29" sx="1.0" sy="1.0" x="185" y="53" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="5" id="4" name="Coin 28" sx="1.0" sy="1.0" x="152" y="64" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="5" id="4" name="Coin 31" sx="1.0" sy="1.0" x="31" y="183" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="5" id="4" name="Coin 30" sx="1.0" sy="1.0" x="219" y="27" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="5" id="4" name="Coin 34" sx="1.0" sy="1.0" x="126" y="94" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="5" id="4" name="Coin 35" sx="1.0" sy="1.0" x="111" y="87" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="5" id="4" name="Coin 32" sx="1.0" sy="1.0" x="76" y="106" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="5" id="4" name="Coin 33" sx="1.0" sy="1.0" x="65" y="154" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="5" id="4" name="Coin 38" sx="1.0" sy="1.0" x="169" y="11" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="5" id="4" name="Coin 39" sx="1.0" sy="1.0" x="221" y="0" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="5" id="4" name="Coin 36" sx="1.0" sy="1.0" x="113" y="52" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="5" id="4" name="Coin 37" sx="1.0" sy="1.0" x="149" y="16" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="5" id="4" name="Coin 42" sx="1.0" sy="1.0" x="548" y="251" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="5" id="4" name="Coin 43" sx="1.0" sy="1.0" x="486" y="227" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="5" id="4" name="Coin 40" sx="1.0" sy="1.0" x="484" y="257" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="5" id="4" name="Coin 41" sx="1.0" sy="1.0" x="516" y="254" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="5" id="4" name="Coin 46" sx="1.0" sy="1.0" x="492" y="197" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="5" id="4" name="Coin 47" sx="1.0" sy="1.0" x="520" y="192" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="5" id="4" name="Coin 44" sx="1.0" sy="1.0" x="520" y="222" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="5" id="4" name="Coin 45" sx="1.0" sy="1.0" x="547" y="222" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="5" id="4" name="Coin 51" sx="1.0" sy="1.0" x="703" y="208" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="5" id="4" name="Coin 50" sx="1.0" sy="1.0" x="864" y="257" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="5" id="4" name="Coin 49" sx="1.0" sy="1.0" x="708" y="252" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="5" id="4" name="Coin 48" sx="1.0" sy="1.0" x="556" y="192" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="5" id="4" name="Coin 55" sx="1.0" sy="1.0" x="1045" y="180" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="5" id="4" name="Coin 54" sx="1.0" sy="1.0" x="986" y="222" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="5" id="4" name="Coin 53" sx="1.0" sy="1.0" x="987" y="257" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="5" id="4" name="Coin 52" sx="1.0" sy="1.0" x="860" y="216" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="5" id="4" name="Coin 59" sx="1.0" sy="1.0" x="1180" y="65" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="5" id="4" name="Coin 58" sx="1.0" sy="1.0" x="1124" y="83" z="0"/>
+        <actor a="0.0" aid="57" c="false" group="5" id="4" name="Coin 57" sx="1.0" sy="1.0" x="1117" y="124" z="0"/>
+        <actor a="0.0" aid="56" c="false" group="5" id="4" name="Coin 56" sx="1.0" sy="1.0" x="1051" y="147" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="5" id="4" name="Coin 63" sx="1.0" sy="1.0" x="1205" y="3" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="5" id="4" name="Coin 62" sx="1.0" sy="1.0" x="1237" y="26" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="5" id="4" name="Coin 61" sx="1.0" sy="1.0" x="1200" y="32" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="5" id="4" name="Coin 60" sx="1.0" sy="1.0" x="1179" y="26" z="0"/>
+        <actor a="0.0" aid="68" c="false" group="4" id="6" name="Mr Gnome 68" sx="1.0" sy="1.0" x="755" y="245" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="5" id="4" name="Coin 64" sx="1.0" sy="1.0" x="1240" y="-2" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="0" id="0" name="Bobo 65" sx="1.0" sy="1.0" x="-3" y="247" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="4" id="6" name="Mr Gnome 66" sx="1.0" sy="1.0" x="597" y="246" z="0"/>
+        <actor a="0.0" aid="76" c="false" group="4" id="6" name="Mr Gnome 76" sx="1.0" sy="1.0" x="1233" y="96" z="0"/>
+        <actor a="0.0" aid="77" c="false" group="4" id="6" name="Mr Gnome 77" sx="1.0" sy="1.0" x="1206" y="171" z="0"/>
+        <actor a="0.0" aid="78" c="false" group="4" id="6" name="Mr Gnome 78" sx="1.0" sy="1.0" x="1236" y="171" z="0"/>
+        <actor a="0.0" aid="79" c="false" group="4" id="6" name="Mr Gnome 79" sx="1.0" sy="1.0" x="1168" y="203" z="0"/>
+        <actor a="0.0" aid="74" c="false" group="4" id="6" name="Mr Gnome 74" sx="1.0" sy="1.0" x="1162" y="134" z="0"/>
+        <actor a="0.0" aid="75" c="false" group="4" id="6" name="Mr Gnome 75" sx="1.0" sy="1.0" x="1218" y="103" z="0"/>
+        <actor a="0.0" aid="85" c="false" group="4" id="6" name="Mr Gnome 85" sx="1.0" sy="1.0" x="1146" y="249" z="0"/>
+        <actor a="0.0" aid="84" c="false" group="4" id="6" name="Mr Gnome 84" sx="1.0" sy="1.0" x="1137" y="249" z="0"/>
+        <actor a="0.0" aid="87" c="false" group="4" id="6" name="Mr Gnome 87" sx="1.0" sy="1.0" x="1203" y="243" z="0"/>
+        <actor a="0.0" aid="86" c="false" group="4" id="6" name="Mr Gnome 86" sx="1.0" sy="1.0" x="1194" y="243" z="0"/>
+        <actor a="0.0" aid="81" c="false" group="4" id="6" name="Mr Gnome 81" sx="1.0" sy="1.0" x="1102" y="263" z="0"/>
+        <actor a="0.0" aid="80" c="false" group="4" id="6" name="Mr Gnome 80" sx="1.0" sy="1.0" x="1134" y="212" z="0"/>
+        <actor a="0.0" aid="83" c="false" group="4" id="6" name="Mr Gnome 83" sx="1.0" sy="1.0" x="1092" y="253" z="0"/>
+        <actor a="0.0" aid="82" c="false" group="4" id="6" name="Mr Gnome 82" sx="1.0" sy="1.0" x="1054" y="249" z="0"/>
+        <actor a="0.0" aid="95" c="false" group="4" id="6" name="Mr Gnome 95" sx="1.0" sy="1.0" x="279" y="232" z="0"/>
+        <actor a="0.0" aid="94" c="false" group="4" id="6" name="Mr Gnome 94" sx="1.0" sy="1.0" x="1044" y="-10" z="0"/>
+        <actor a="0.0" aid="89" c="false" group="4" id="6" name="Mr Gnome 89" sx="1.0" sy="1.0" x="1240" y="232" z="0"/>
+        <actor a="0.0" aid="88" c="false" group="4" id="6" name="Mr Gnome 88" sx="1.0" sy="1.0" x="1230" y="240" z="0"/>
+        <actor a="0.0" aid="100" c="false" group="4" id="6" name="Mr Gnome 100" sx="1.0" sy="1.0" x="354" y="245" z="0"/>
+        <actor a="0.0" aid="101" c="false" group="4" id="6" name="Mr Gnome 101" sx="1.0" sy="1.0" x="354" y="245" z="0"/>
+        <actor a="0.0" aid="98" c="false" group="4" id="6" name="Mr Gnome 98" sx="1.0" sy="1.0" x="333" y="244" z="0"/>
+        <actor a="0.0" aid="99" c="false" group="4" id="6" name="Mr Gnome 99" sx="1.0" sy="1.0" x="345" y="244" z="0"/>
+        <actor a="0.0" aid="96" c="false" group="4" id="6" name="Mr Gnome 96" sx="1.0" sy="1.0" x="313" y="243" z="0"/>
+        <actor a="0.0" aid="97" c="false" group="4" id="6" name="Mr Gnome 97" sx="1.0" sy="1.0" x="324" y="245" z="0"/>
+        <actor a="0.0" aid="110" c="false" group="4" id="6" name="Mr Gnome 110" sx="1.0" sy="1.0" x="352" y="223" z="0"/>
+        <actor a="0.0" aid="111" c="false" group="4" id="6" name="Mr Gnome 111" sx="1.0" sy="1.0" x="319" y="222" z="0"/>
+        <actor a="0.0" aid="119" c="false" group="4" id="6" name="Mr Gnome 119" sx="1.0" sy="1.0" x="223" y="196" z="0"/>
+        <actor a="0.0" aid="118" c="false" group="4" id="6" name="Mr Gnome 118" sx="1.0" sy="1.0" x="250" y="127" z="0"/>
+        <actor a="0.0" aid="117" c="false" group="4" id="6" name="Mr Gnome 117" sx="1.0" sy="1.0" x="257" y="138" z="0"/>
+        <actor a="0.0" aid="116" c="false" group="4" id="6" name="Mr Gnome 116" sx="1.0" sy="1.0" x="229" y="150" z="0"/>
+        <actor a="0.0" aid="115" c="false" group="4" id="6" name="Mr Gnome 115" sx="1.0" sy="1.0" x="234" y="182" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="4" id="6" name="Mr Gnome 114" sx="1.0" sy="1.0" x="222" y="213" z="0"/>
+        <actor a="0.0" aid="113" c="false" group="4" id="6" name="Mr Gnome 113" sx="1.0" sy="1.0" x="287" y="242" z="0"/>
+        <actor a="0.0" aid="112" c="false" group="4" id="6" name="Mr Gnome 112" sx="1.0" sy="1.0" x="296" y="245" z="0"/>
+        <actor a="0.0" aid="127" c="false" group="4" id="6" name="Mr Gnome 127" sx="1.0" sy="1.0" x="229" y="226" z="0"/>
+        <actor a="0.0" aid="126" c="false" group="4" id="6" name="Mr Gnome 126" sx="1.0" sy="1.0" x="131" y="235" z="0"/>
+        <actor a="0.0" aid="125" c="false" group="4" id="6" name="Mr Gnome 125" sx="1.0" sy="1.0" x="99" y="236" z="0"/>
+        <actor a="0.0" aid="124" c="false" group="4" id="6" name="Mr Gnome 124" sx="1.0" sy="1.0" x="99" y="236" z="0"/>
+        <actor a="0.0" aid="123" c="false" group="4" id="6" name="Mr Gnome 123" sx="1.0" sy="1.0" x="125" y="248" z="0"/>
+        <actor a="0.0" aid="122" c="false" group="4" id="6" name="Mr Gnome 122" sx="1.0" sy="1.0" x="144" y="239" z="0"/>
+        <actor a="0.0" aid="121" c="false" group="4" id="6" name="Mr Gnome 121" sx="1.0" sy="1.0" x="199" y="189" z="0"/>
+        <actor a="0.0" aid="120" c="false" group="4" id="6" name="Mr Gnome 120" sx="1.0" sy="1.0" x="198" y="186" z="0"/>
+        <actor a="0.0" aid="129" c="false" group="4" id="6" name="Mr Gnome 129" sx="1.0" sy="1.0" x="705" y="6" z="0"/>
+        <actor a="0.0" aid="128" c="false" group="4" id="6" name="Mr Gnome 128" sx="1.0" sy="1.0" x="521" y="-12" z="0"/>
+        <actor a="0.0" aid="131" c="false" group="4" id="6" name="Mr Gnome 131" sx="1.0" sy="1.0" x="978" y="6" z="0"/>
+        <actor a="0.0" aid="130" c="false" group="4" id="6" name="Mr Gnome 130" sx="1.0" sy="1.0" x="848" y="5" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="13">
+            <prop id="1" list="0" val="Default Font"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="2"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="14">
+            <prop id="1" list="0" val="0"/>
+            <prop id="2" list="0" val="1"/>
+            <prop id="4" list="0" val="65"/>
+            <prop id="7" list="0" val="false"/>
+            <prop id="8" list="0" val="false"/>
+            <prop id="9" list="0" val="No Control"/>
+            <prop id="10" list="0" val="0.5"/>
+            <prop id="11" list="0" val="0.5"/>
+            <prop id="12" list="0" val="Fade"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1120.0" y="160.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="288.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="96.0" y="192.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="192.0" y="96.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="992.0" y="288.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="128.0" y="160.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="864.0" y="288.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1056.0" y="224.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="64.0" y="224.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="224.0" y="64.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="32.0" y="256.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="256.0" y="32.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="128.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="704.0" y="288.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1184.0" y="96.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="1216.0" y="64.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="480.0" y="288.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

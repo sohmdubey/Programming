@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="33" extheight="1344" extwidth="544" extx="-32" exty="-32" format="3.3.0" gravx="-0.0" gravy="0.0" height="1280" id="4" name="Stage 3" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="128" green="128" red="128"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="9" id="0" name="Region 0" pts="4,477.0,0.0,477.0,9.0,0.0,9.0,0.0,0.0" r="64" type="box" w="477" x="1" y="0"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="2" id="18" name="Action Button 1" sx="1.0" sy="1.0" x="128" y="288" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="2" id="13" name="Down Button 2" sx="1.0" sy="1.0" x="128" y="352" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="2" id="4" name="Right Button 3" sx="1.0" sy="1.0" x="192" y="288" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="2" id="10" name="Left Button 4" sx="1.0" sy="1.0" x="64" y="288" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="7" name="Up Button 5" sx="1.0" sy="1.0" x="128" y="224" z="0"/>
+        <actor a="0.0" aid="6" c="true" group="0" id="0" name="RedCar 6" sx="1.0" sy="1.0" x="201" y="1054" z="0">
+            <snippets>
+                <s enabled="true" id="0"/>
+                <s enabled="true" id="16">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="15">
+                    <prop id="1" list="0" val="3"/>
+                    <prop id="2" list="0" val="4"/>
+                    <prop id="3" list="0" val="5"/>
+                    <prop id="4" list="0" val="2"/>
+                    <prop id="5" list="0" val="20"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="110" c="false" group="4" id="15" name="Spinning Coin 110" sx="1.0" sy="1.0" x="96" y="0" z="0"/>
+        <actor a="0.0" aid="111" c="false" group="4" id="15" name="Spinning Coin 111" sx="1.0" sy="1.0" x="128" y="0" z="0"/>
+        <actor a="0.0" aid="108" c="false" group="4" id="15" name="Spinning Coin 108" sx="1.0" sy="1.0" x="32" y="0" z="0"/>
+        <actor a="0.0" aid="109" c="false" group="4" id="15" name="Spinning Coin 109" sx="1.0" sy="1.0" x="64" y="0" z="0"/>
+        <actor a="0.0" aid="107" c="false" group="2" id="42" name="ShieldButton 107" sx="1.0" sy="1.0" x="128" y="160" z="0"/>
+        <actor a="0.0" aid="119" c="false" group="4" id="15" name="Spinning Coin 119" sx="1.0" sy="1.0" x="384" y="0" z="0"/>
+        <actor a="0.0" aid="118" c="false" group="4" id="15" name="Spinning Coin 118" sx="1.0" sy="1.0" x="352" y="0" z="0"/>
+        <actor a="0.0" aid="117" c="false" group="4" id="15" name="Spinning Coin 117" sx="1.0" sy="1.0" x="320" y="0" z="0"/>
+        <actor a="0.0" aid="116" c="false" group="4" id="15" name="Spinning Coin 116" sx="1.0" sy="1.0" x="288" y="0" z="0"/>
+        <actor a="0.0" aid="115" c="false" group="4" id="15" name="Spinning Coin 115" sx="1.0" sy="1.0" x="256" y="0" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="4" id="15" name="Spinning Coin 114" sx="1.0" sy="1.0" x="224" y="0" z="0"/>
+        <actor a="0.0" aid="113" c="false" group="4" id="15" name="Spinning Coin 113" sx="1.0" sy="1.0" x="192" y="0" z="0"/>
+        <actor a="0.0" aid="112" c="false" group="4" id="15" name="Spinning Coin 112" sx="1.0" sy="1.0" x="160" y="0" z="0"/>
+        <actor a="0.0" aid="127" c="false" group="4" id="15" name="Spinning Coin 127" sx="1.0" sy="1.0" x="32" y="224" z="0"/>
+        <actor a="0.0" aid="126" c="false" group="4" id="15" name="Spinning Coin 126" sx="1.0" sy="1.0" x="32" y="192" z="0"/>
+        <actor a="0.0" aid="125" c="false" group="4" id="15" name="Spinning Coin 125" sx="1.0" sy="1.0" x="32" y="160" z="0"/>
+        <actor a="0.0" aid="124" c="false" group="4" id="15" name="Spinning Coin 124" sx="1.0" sy="1.0" x="32" y="128" z="0"/>
+        <actor a="0.0" aid="123" c="false" group="4" id="15" name="Spinning Coin 123" sx="1.0" sy="1.0" x="32" y="96" z="0"/>
+        <actor a="0.0" aid="122" c="false" group="4" id="15" name="Spinning Coin 122" sx="1.0" sy="1.0" x="32" y="64" z="0"/>
+        <actor a="0.0" aid="121" c="false" group="4" id="15" name="Spinning Coin 121" sx="1.0" sy="1.0" x="32" y="32" z="0"/>
+        <actor a="0.0" aid="120" c="false" group="4" id="15" name="Spinning Coin 120" sx="1.0" sy="1.0" x="416" y="0" z="0"/>
+        <actor a="0.0" aid="137" c="false" group="4" id="15" name="Spinning Coin 137" sx="1.0" sy="1.0" x="32" y="608" z="0"/>
+        <actor a="0.0" aid="136" c="false" group="4" id="15" name="Spinning Coin 136" sx="1.0" sy="1.0" x="32" y="512" z="0"/>
+        <actor a="0.0" aid="139" c="false" group="4" id="15" name="Spinning Coin 139" sx="1.0" sy="1.0" x="32" y="544" z="0"/>
+        <actor a="0.0" aid="138" c="false" group="4" id="15" name="Spinning Coin 138" sx="1.0" sy="1.0" x="32" y="576" z="0"/>
+        <actor a="0.0" aid="141" c="false" group="4" id="15" name="Spinning Coin 141" sx="1.0" sy="1.0" x="32" y="800" z="0"/>
+        <actor a="0.0" aid="140" c="false" group="4" id="15" name="Spinning Coin 140" sx="1.0" sy="1.0" x="32" y="704" z="0"/>
+        <actor a="0.0" aid="143" c="false" group="4" id="15" name="Spinning Coin 143" sx="1.0" sy="1.0" x="32" y="736" z="0"/>
+        <actor a="0.0" aid="142" c="false" group="4" id="15" name="Spinning Coin 142" sx="1.0" sy="1.0" x="32" y="768" z="0"/>
+        <actor a="0.0" aid="129" c="false" group="4" id="15" name="Spinning Coin 129" sx="1.0" sy="1.0" x="32" y="288" z="0"/>
+        <actor a="0.0" aid="128" c="false" group="4" id="15" name="Spinning Coin 128" sx="1.0" sy="1.0" x="32" y="256" z="0"/>
+        <actor a="0.0" aid="131" c="false" group="4" id="15" name="Spinning Coin 131" sx="1.0" sy="1.0" x="32" y="352" z="0"/>
+        <actor a="0.0" aid="130" c="false" group="4" id="15" name="Spinning Coin 130" sx="1.0" sy="1.0" x="32" y="320" z="0"/>
+        <actor a="0.0" aid="133" c="false" group="4" id="15" name="Spinning Coin 133" sx="1.0" sy="1.0" x="32" y="416" z="0"/>
+        <actor a="0.0" aid="132" c="false" group="4" id="15" name="Spinning Coin 132" sx="1.0" sy="1.0" x="32" y="384" z="0"/>
+        <actor a="0.0" aid="135" c="false" group="4" id="15" name="Spinning Coin 135" sx="1.0" sy="1.0" x="32" y="480" z="0"/>
+        <actor a="0.0" aid="134" c="false" group="4" id="15" name="Spinning Coin 134" sx="1.0" sy="1.0" x="32" y="448" z="0"/>
+        <actor a="0.0" aid="152" c="false" group="4" id="15" name="Spinning Coin 152" sx="1.0" sy="1.0" x="32" y="992" z="0"/>
+        <actor a="0.0" aid="153" c="false" group="4" id="15" name="Spinning Coin 153" sx="1.0" sy="1.0" x="416" y="1024" z="0"/>
+        <actor a="0.0" aid="154" c="false" group="4" id="15" name="Spinning Coin 154" sx="1.0" sy="1.0" x="416" y="992" z="0"/>
+        <actor a="0.0" aid="155" c="false" group="4" id="15" name="Spinning Coin 155" sx="1.0" sy="1.0" x="416" y="960" z="0"/>
+        <actor a="0.0" aid="156" c="false" group="4" id="15" name="Spinning Coin 156" sx="1.0" sy="1.0" x="416" y="928" z="0"/>
+        <actor a="0.0" aid="157" c="false" group="4" id="15" name="Spinning Coin 157" sx="1.0" sy="1.0" x="416" y="896" z="0"/>
+        <actor a="0.0" aid="158" c="false" group="4" id="15" name="Spinning Coin 158" sx="1.0" sy="1.0" x="416" y="864" z="0"/>
+        <actor a="0.0" aid="159" c="false" group="4" id="15" name="Spinning Coin 159" sx="1.0" sy="1.0" x="416" y="832" z="0"/>
+        <actor a="0.0" aid="144" c="false" group="4" id="15" name="Spinning Coin 144" sx="1.0" sy="1.0" x="32" y="672" z="0"/>
+        <actor a="0.0" aid="145" c="false" group="4" id="15" name="Spinning Coin 145" sx="1.0" sy="1.0" x="32" y="640" z="0"/>
+        <actor a="0.0" aid="146" c="false" group="4" id="15" name="Spinning Coin 146" sx="1.0" sy="1.0" x="32" y="864" z="0"/>
+        <actor a="0.0" aid="147" c="false" group="4" id="15" name="Spinning Coin 147" sx="1.0" sy="1.0" x="32" y="960" z="0"/>
+        <actor a="0.0" aid="148" c="false" group="4" id="15" name="Spinning Coin 148" sx="1.0" sy="1.0" x="32" y="928" z="0"/>
+        <actor a="0.0" aid="149" c="false" group="4" id="15" name="Spinning Coin 149" sx="1.0" sy="1.0" x="32" y="896" z="0"/>
+        <actor a="0.0" aid="150" c="false" group="4" id="15" name="Spinning Coin 150" sx="1.0" sy="1.0" x="32" y="832" z="0"/>
+        <actor a="0.0" aid="151" c="false" group="4" id="15" name="Spinning Coin 151" sx="1.0" sy="1.0" x="32" y="1024" z="0"/>
+        <actor a="0.0" aid="171" c="false" group="4" id="15" name="Spinning Coin 171" sx="1.0" sy="1.0" x="416" y="448" z="0"/>
+        <actor a="0.0" aid="170" c="false" group="4" id="15" name="Spinning Coin 170" sx="1.0" sy="1.0" x="416" y="480" z="0"/>
+        <actor a="0.0" aid="169" c="false" group="4" id="15" name="Spinning Coin 169" sx="1.0" sy="1.0" x="416" y="512" z="0"/>
+        <actor a="0.0" aid="168" c="false" group="4" id="15" name="Spinning Coin 168" sx="1.0" sy="1.0" x="416" y="544" z="0"/>
+        <actor a="0.0" aid="175" c="false" group="4" id="15" name="Spinning Coin 175" sx="1.0" sy="1.0" x="416" y="96" z="0"/>
+        <actor a="0.0" aid="174" c="false" group="4" id="15" name="Spinning Coin 174" sx="1.0" sy="1.0" x="416" y="64" z="0"/>
+        <actor a="0.0" aid="173" c="false" group="4" id="15" name="Spinning Coin 173" sx="1.0" sy="1.0" x="416" y="32" z="0"/>
+        <actor a="0.0" aid="172" c="false" group="4" id="15" name="Spinning Coin 172" sx="1.0" sy="1.0" x="416" y="416" z="0"/>
+        <actor a="0.0" aid="163" c="false" group="4" id="15" name="Spinning Coin 163" sx="1.0" sy="1.0" x="416" y="704" z="0"/>
+        <actor a="0.0" aid="162" c="false" group="4" id="15" name="Spinning Coin 162" sx="1.0" sy="1.0" x="416" y="736" z="0"/>
+        <actor a="0.0" aid="161" c="false" group="4" id="15" name="Spinning Coin 161" sx="1.0" sy="1.0" x="416" y="768" z="0"/>
+        <actor a="0.0" aid="160" c="false" group="4" id="15" name="Spinning Coin 160" sx="1.0" sy="1.0" x="416" y="800" z="0"/>
+        <actor a="0.0" aid="167" c="false" group="4" id="15" name="Spinning Coin 167" sx="1.0" sy="1.0" x="416" y="576" z="0"/>
+        <actor a="0.0" aid="166" c="false" group="4" id="15" name="Spinning Coin 166" sx="1.0" sy="1.0" x="416" y="608" z="0"/>
+        <actor a="0.0" aid="165" c="false" group="4" id="15" name="Spinning Coin 165" sx="1.0" sy="1.0" x="416" y="640" z="0"/>
+        <actor a="0.0" aid="164" c="false" group="4" id="15" name="Spinning Coin 164" sx="1.0" sy="1.0" x="416" y="672" z="0"/>
+        <actor a="0.0" aid="186" c="false" group="4" id="15" name="Spinning Coin 186" sx="1.0" sy="1.0" x="96" y="960" z="0"/>
+        <actor a="0.0" aid="187" c="false" group="4" id="15" name="Spinning Coin 187" sx="1.0" sy="1.0" x="128" y="928" z="0"/>
+        <actor a="0.0" aid="184" c="false" group="4" id="15" name="Spinning Coin 184" sx="1.0" sy="1.0" x="416" y="384" z="0"/>
+        <actor a="0.0" aid="185" c="false" group="4" id="15" name="Spinning Coin 185" sx="1.0" sy="1.0" x="64" y="992" z="0"/>
+        <actor a="0.0" aid="190" c="false" group="4" id="15" name="Spinning Coin 190" sx="1.0" sy="1.0" x="224" y="832" z="0"/>
+        <actor a="0.0" aid="191" c="false" group="4" id="15" name="Spinning Coin 191" sx="1.0" sy="1.0" x="256" y="800" z="0"/>
+        <actor a="0.0" aid="188" c="false" group="4" id="15" name="Spinning Coin 188" sx="1.0" sy="1.0" x="160" y="896" z="0"/>
+        <actor a="0.0" aid="189" c="false" group="4" id="15" name="Spinning Coin 189" sx="1.0" sy="1.0" x="192" y="864" z="0"/>
+        <actor a="0.0" aid="178" c="false" group="4" id="15" name="Spinning Coin 178" sx="1.0" sy="1.0" x="416" y="192" z="0"/>
+        <actor a="0.0" aid="179" c="false" group="4" id="15" name="Spinning Coin 179" sx="1.0" sy="1.0" x="416" y="224" z="0"/>
+        <actor a="0.0" aid="176" c="false" group="4" id="15" name="Spinning Coin 176" sx="1.0" sy="1.0" x="416" y="128" z="0"/>
+        <actor a="0.0" aid="177" c="false" group="4" id="15" name="Spinning Coin 177" sx="1.0" sy="1.0" x="416" y="160" z="0"/>
+        <actor a="0.0" aid="182" c="false" group="4" id="15" name="Spinning Coin 182" sx="1.0" sy="1.0" x="416" y="320" z="0"/>
+        <actor a="0.0" aid="183" c="false" group="4" id="15" name="Spinning Coin 183" sx="1.0" sy="1.0" x="416" y="352" z="0"/>
+        <actor a="0.0" aid="180" c="false" group="4" id="15" name="Spinning Coin 180" sx="1.0" sy="1.0" x="416" y="256" z="0"/>
+        <actor a="0.0" aid="181" c="false" group="4" id="15" name="Spinning Coin 181" sx="1.0" sy="1.0" x="416" y="288" z="0"/>
+        <actor a="0.0" aid="205" c="false" group="4" id="15" name="Spinning Coin 205" sx="1.0" sy="1.0" x="64" y="672" z="0"/>
+        <actor a="0.0" aid="204" c="false" group="4" id="15" name="Spinning Coin 204" sx="1.0" sy="1.0" x="96" y="704" z="0"/>
+        <actor a="0.0" aid="207" c="false" group="4" id="15" name="Spinning Coin 207" sx="1.0" sy="1.0" x="128" y="608" z="0"/>
+        <actor a="0.0" aid="206" c="false" group="4" id="15" name="Spinning Coin 206" sx="1.0" sy="1.0" x="96" y="640" z="0"/>
+        <actor a="0.0" aid="201" c="false" group="4" id="15" name="Spinning Coin 201" sx="1.0" sy="1.0" x="192" y="800" z="0"/>
+        <actor a="0.0" aid="200" c="false" group="4" id="15" name="Spinning Coin 200" sx="1.0" sy="1.0" x="256" y="864" z="0"/>
+        <actor a="0.0" aid="203" c="false" group="4" id="15" name="Spinning Coin 203" sx="1.0" sy="1.0" x="128" y="736" z="0"/>
+        <actor a="0.0" aid="202" c="false" group="4" id="15" name="Spinning Coin 202" sx="1.0" sy="1.0" x="160" y="768" z="0"/>
+        <actor a="0.0" aid="197" c="false" group="4" id="15" name="Spinning Coin 197" sx="1.0" sy="1.0" x="352" y="960" z="0"/>
+        <actor a="0.0" aid="196" c="false" group="4" id="15" name="Spinning Coin 196" sx="1.0" sy="1.0" x="384" y="992" z="0"/>
+        <actor a="0.0" aid="199" c="false" group="4" id="15" name="Spinning Coin 199" sx="1.0" sy="1.0" x="288" y="896" z="0"/>
+        <actor a="0.0" aid="198" c="false" group="4" id="15" name="Spinning Coin 198" sx="1.0" sy="1.0" x="320" y="928" z="0"/>
+        <actor a="0.0" aid="193" c="false" group="4" id="15" name="Spinning Coin 193" sx="1.0" sy="1.0" x="320" y="736" z="0"/>
+        <actor a="0.0" aid="192" c="false" group="4" id="15" name="Spinning Coin 192" sx="1.0" sy="1.0" x="288" y="768" z="0"/>
+        <actor a="0.0" aid="195" c="false" group="4" id="15" name="Spinning Coin 195" sx="1.0" sy="1.0" x="384" y="672" z="0"/>
+        <actor a="0.0" aid="194" c="false" group="4" id="15" name="Spinning Coin 194" sx="1.0" sy="1.0" x="352" y="704" z="0"/>
+        <actor a="0.0" aid="220" c="false" group="4" id="15" name="Spinning Coin 220" sx="1.0" sy="1.0" x="192" y="480" z="0"/>
+        <actor a="0.0" aid="221" c="false" group="4" id="15" name="Spinning Coin 221" sx="1.0" sy="1.0" x="160" y="448" z="0"/>
+        <actor a="0.0" aid="222" c="false" group="4" id="15" name="Spinning Coin 222" sx="1.0" sy="1.0" x="128" y="416" z="0"/>
+        <actor a="0.0" aid="223" c="false" group="4" id="15" name="Spinning Coin 223" sx="1.0" sy="1.0" x="96" y="384" z="0"/>
+        <actor a="0.0" aid="216" c="false" group="4" id="15" name="Spinning Coin 216" sx="1.0" sy="1.0" x="352" y="640" z="0"/>
+        <actor a="0.0" aid="217" c="false" group="4" id="15" name="Spinning Coin 217" sx="1.0" sy="1.0" x="320" y="608" z="0"/>
+        <actor a="0.0" aid="218" c="false" group="4" id="15" name="Spinning Coin 218" sx="1.0" sy="1.0" x="288" y="576" z="0"/>
+        <actor a="0.0" aid="219" c="false" group="4" id="15" name="Spinning Coin 219" sx="1.0" sy="1.0" x="256" y="544" z="0"/>
+        <actor a="0.0" aid="212" c="false" group="4" id="15" name="Spinning Coin 212" sx="1.0" sy="1.0" x="288" y="448" z="0"/>
+        <actor a="0.0" aid="213" c="false" group="4" id="15" name="Spinning Coin 213" sx="1.0" sy="1.0" x="320" y="416" z="0"/>
+        <actor a="0.0" aid="214" c="false" group="4" id="15" name="Spinning Coin 214" sx="1.0" sy="1.0" x="352" y="384" z="0"/>
+        <actor a="0.0" aid="215" c="false" group="4" id="15" name="Spinning Coin 215" sx="1.0" sy="1.0" x="384" y="352" z="0"/>
+        <actor a="0.0" aid="208" c="false" group="4" id="15" name="Spinning Coin 208" sx="1.0" sy="1.0" x="160" y="576" z="0"/>
+        <actor a="0.0" aid="209" c="false" group="4" id="15" name="Spinning Coin 209" sx="1.0" sy="1.0" x="192" y="544" z="0"/>
+        <actor a="0.0" aid="210" c="false" group="4" id="15" name="Spinning Coin 210" sx="1.0" sy="1.0" x="224" y="512" z="0"/>
+        <actor a="0.0" aid="211" c="false" group="4" id="15" name="Spinning Coin 211" sx="1.0" sy="1.0" x="256" y="480" z="0"/>
+        <actor a="0.0" aid="239" c="false" group="4" id="15" name="Spinning Coin 239" sx="1.0" sy="1.0" x="192" y="160" z="0"/>
+        <actor a="0.0" aid="238" c="false" group="4" id="15" name="Spinning Coin 238" sx="1.0" sy="1.0" x="256" y="224" z="0"/>
+        <actor a="0.0" aid="237" c="false" group="4" id="15" name="Spinning Coin 237" sx="1.0" sy="1.0" x="288" y="256" z="0"/>
+        <actor a="0.0" aid="236" c="false" group="4" id="15" name="Spinning Coin 236" sx="1.0" sy="1.0" x="320" y="288" z="0"/>
+        <actor a="0.0" aid="235" c="false" group="4" id="15" name="Spinning Coin 235" sx="1.0" sy="1.0" x="352" y="320" z="0"/>
+        <actor a="0.0" aid="234" c="false" group="4" id="15" name="Spinning Coin 234" sx="1.0" sy="1.0" x="384" y="32" z="0"/>
+        <actor a="0.0" aid="233" c="false" group="4" id="15" name="Spinning Coin 233" sx="1.0" sy="1.0" x="352" y="64" z="0"/>
+        <actor a="0.0" aid="232" c="false" group="4" id="15" name="Spinning Coin 232" sx="1.0" sy="1.0" x="320" y="96" z="0"/>
+        <actor a="0.0" aid="231" c="false" group="4" id="15" name="Spinning Coin 231" sx="1.0" sy="1.0" x="288" y="128" z="0"/>
+        <actor a="0.0" aid="230" c="false" group="4" id="15" name="Spinning Coin 230" sx="1.0" sy="1.0" x="256" y="160" z="0"/>
+        <actor a="0.0" aid="229" c="false" group="4" id="15" name="Spinning Coin 229" sx="1.0" sy="1.0" x="224" y="192" z="0"/>
+        <actor a="0.0" aid="228" c="false" group="4" id="15" name="Spinning Coin 228" sx="1.0" sy="1.0" x="192" y="224" z="0"/>
+        <actor a="0.0" aid="227" c="false" group="4" id="15" name="Spinning Coin 227" sx="1.0" sy="1.0" x="160" y="256" z="0"/>
+        <actor a="0.0" aid="226" c="false" group="4" id="15" name="Spinning Coin 226" sx="1.0" sy="1.0" x="128" y="288" z="0"/>
+        <actor a="0.0" aid="225" c="false" group="4" id="15" name="Spinning Coin 225" sx="1.0" sy="1.0" x="96" y="320" z="0"/>
+        <actor a="0.0" aid="224" c="false" group="4" id="15" name="Spinning Coin 224" sx="1.0" sy="1.0" x="64" y="352" z="0"/>
+        <actor a="0.0" aid="254" c="false" group="4" id="15" name="Spinning Coin 254" sx="1.0" sy="1.0" x="384" y="1056" z="0"/>
+        <actor a="0.0" aid="255" c="false" group="4" id="15" name="Spinning Coin 255" sx="1.0" sy="1.0" x="224" y="544" z="0"/>
+        <actor a="0.0" aid="252" c="false" group="4" id="15" name="Spinning Coin 252" sx="1.0" sy="1.0" x="320" y="1120" z="0"/>
+        <actor a="0.0" aid="253" c="false" group="4" id="15" name="Spinning Coin 253" sx="1.0" sy="1.0" x="352" y="1088" z="0"/>
+        <actor a="0.0" aid="250" c="false" group="4" id="15" name="Spinning Coin 250" sx="1.0" sy="1.0" x="256" y="1184" z="0"/>
+        <actor a="0.0" aid="251" c="false" group="4" id="15" name="Spinning Coin 251" sx="1.0" sy="1.0" x="288" y="1152" z="0"/>
+        <actor a="0.0" aid="248" c="false" group="4" id="15" name="Spinning Coin 248" sx="1.0" sy="1.0" x="192" y="1184" z="0"/>
+        <actor a="0.0" aid="249" c="false" group="4" id="15" name="Spinning Coin 249" sx="1.0" sy="1.0" x="224" y="1216" z="0"/>
+        <actor a="0.0" aid="246" c="false" group="4" id="15" name="Spinning Coin 246" sx="1.0" sy="1.0" x="128" y="1120" z="0"/>
+        <actor a="0.0" aid="247" c="false" group="4" id="15" name="Spinning Coin 247" sx="1.0" sy="1.0" x="160" y="1152" z="0"/>
+        <actor a="0.0" aid="244" c="false" group="4" id="15" name="Spinning Coin 244" sx="1.0" sy="1.0" x="64" y="1056" z="0"/>
+        <actor a="0.0" aid="245" c="false" group="4" id="15" name="Spinning Coin 245" sx="1.0" sy="1.0" x="96" y="1088" z="0"/>
+        <actor a="0.0" aid="242" c="false" group="4" id="15" name="Spinning Coin 242" sx="1.0" sy="1.0" x="96" y="64" z="0"/>
+        <actor a="0.0" aid="243" c="false" group="4" id="15" name="Spinning Coin 243" sx="1.0" sy="1.0" x="64" y="32" z="0"/>
+        <actor a="0.0" aid="240" c="false" group="4" id="15" name="Spinning Coin 240" sx="1.0" sy="1.0" x="160" y="128" z="0"/>
+        <actor a="0.0" aid="241" c="false" group="4" id="15" name="Spinning Coin 241" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
+        <actor a="0.0" aid="275" c="false" group="4" id="15" name="Spinning Coin 275" sx="1.0" sy="1.0" x="224" y="32" z="0"/>
+        <actor a="0.0" aid="274" c="false" group="4" id="15" name="Spinning Coin 274" sx="1.0" sy="1.0" x="224" y="480" z="0"/>
+        <actor a="0.0" aid="273" c="false" group="4" id="15" name="Spinning Coin 273" sx="1.0" sy="1.0" x="224" y="448" z="0"/>
+        <actor a="0.0" aid="272" c="false" group="4" id="15" name="Spinning Coin 272" sx="1.0" sy="1.0" x="224" y="416" z="0"/>
+        <actor a="0.0" aid="279" c="false" group="4" id="15" name="Spinning Coin 279" sx="1.0" sy="1.0" x="224" y="160" z="0"/>
+        <actor a="0.0" aid="278" c="false" group="4" id="15" name="Spinning Coin 278" sx="1.0" sy="1.0" x="224" y="128" z="0"/>
+        <actor a="0.0" aid="277" c="false" group="4" id="15" name="Spinning Coin 277" sx="1.0" sy="1.0" x="224" y="96" z="0"/>
+        <actor a="0.0" aid="276" c="false" group="4" id="15" name="Spinning Coin 276" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
+        <actor a="0.0" aid="283" c="false" group="4" id="15" name="Spinning Coin 283" sx="1.0" sy="1.0" x="224" y="960" z="0"/>
+        <actor a="0.0" aid="282" c="false" group="4" id="15" name="Spinning Coin 282" sx="1.0" sy="1.0" x="224" y="928" z="0"/>
+        <actor a="0.0" aid="281" c="false" group="4" id="15" name="Spinning Coin 281" sx="1.0" sy="1.0" x="224" y="896" z="0"/>
+        <actor a="0.0" aid="280" c="false" group="4" id="15" name="Spinning Coin 280" sx="1.0" sy="1.0" x="224" y="864" z="0"/>
+        <actor a="0.0" aid="287" c="false" group="4" id="15" name="Spinning Coin 287" sx="1.0" sy="1.0" x="64" y="1024" z="0"/>
+        <actor a="0.0" aid="286" c="false" group="4" id="15" name="Spinning Coin 286" sx="1.0" sy="1.0" x="224" y="1184" z="0"/>
+        <actor a="0.0" aid="285" c="false" group="4" id="15" name="Spinning Coin 285" sx="1.0" sy="1.0" x="224" y="1024" z="0"/>
+        <actor a="0.0" aid="284" c="false" group="4" id="15" name="Spinning Coin 284" sx="1.0" sy="1.0" x="224" y="992" z="0"/>
+        <actor a="0.0" aid="258" c="false" group="4" id="15" name="Spinning Coin 258" sx="1.0" sy="1.0" x="224" y="608" z="0"/>
+        <actor a="0.0" aid="259" c="false" group="4" id="15" name="Spinning Coin 259" sx="1.0" sy="1.0" x="224" y="640" z="0"/>
+        <actor a="0.0" aid="256" c="false" group="4" id="15" name="Spinning Coin 256" sx="1.0" sy="1.0" x="224" y="576" z="0"/>
+        <actor a="0.0" aid="257" c="false" group="4" id="15" name="Spinning Coin 257" sx="1.0" sy="1.0" x="224" y="576" z="0"/>
+        <actor a="0.0" aid="262" c="false" group="4" id="15" name="Spinning Coin 262" sx="1.0" sy="1.0" x="224" y="768" z="0"/>
+        <actor a="0.0" aid="263" c="false" group="4" id="15" name="Spinning Coin 263" sx="1.0" sy="1.0" x="224" y="768" z="0"/>
+        <actor a="0.0" aid="260" c="false" group="4" id="15" name="Spinning Coin 260" sx="1.0" sy="1.0" x="224" y="672" z="0"/>
+        <actor a="0.0" aid="261" c="false" group="4" id="15" name="Spinning Coin 261" sx="1.0" sy="1.0" x="224" y="704" z="0"/>
+        <actor a="0.0" aid="266" c="false" group="4" id="15" name="Spinning Coin 266" sx="1.0" sy="1.0" x="224" y="224" z="0"/>
+        <actor a="0.0" aid="267" c="false" group="4" id="15" name="Spinning Coin 267" sx="1.0" sy="1.0" x="224" y="256" z="0"/>
+        <actor a="0.0" aid="264" c="false" group="4" id="15" name="Spinning Coin 264" sx="1.0" sy="1.0" x="224" y="800" z="0"/>
+        <actor a="0.0" aid="265" c="false" group="4" id="15" name="Spinning Coin 265" sx="1.0" sy="1.0" x="224" y="736" z="0"/>
+        <actor a="0.0" aid="270" c="false" group="4" id="15" name="Spinning Coin 270" sx="1.0" sy="1.0" x="224" y="352" z="0"/>
+        <actor a="0.0" aid="271" c="false" group="4" id="15" name="Spinning Coin 271" sx="1.0" sy="1.0" x="224" y="384" z="0"/>
+        <actor a="0.0" aid="268" c="false" group="4" id="15" name="Spinning Coin 268" sx="1.0" sy="1.0" x="224" y="320" z="0"/>
+        <actor a="0.0" aid="269" c="false" group="4" id="15" name="Spinning Coin 269" sx="1.0" sy="1.0" x="224" y="288" z="0"/>
+        <actor a="0.0" aid="305" c="false" group="4" id="15" name="Spinning Coin 305" sx="1.0" sy="1.0" x="320" y="1216" z="0"/>
+        <actor a="0.0" aid="304" c="false" group="4" id="15" name="Spinning Coin 304" sx="1.0" sy="1.0" x="352" y="1216" z="0"/>
+        <actor a="0.0" aid="307" c="false" group="4" id="15" name="Spinning Coin 307" sx="1.0" sy="1.0" x="256" y="1216" z="0"/>
+        <actor a="0.0" aid="306" c="false" group="4" id="15" name="Spinning Coin 306" sx="1.0" sy="1.0" x="288" y="1216" z="0"/>
+        <actor a="0.0" aid="309" c="false" group="4" id="15" name="Spinning Coin 309" sx="1.0" sy="1.0" x="160" y="1216" z="0"/>
+        <actor a="0.0" aid="308" c="false" group="4" id="15" name="Spinning Coin 308" sx="1.0" sy="1.0" x="192" y="1216" z="0"/>
+        <actor a="0.0" aid="311" c="false" group="4" id="15" name="Spinning Coin 311" sx="1.0" sy="1.0" x="96" y="1216" z="0"/>
+        <actor a="0.0" aid="310" c="false" group="4" id="15" name="Spinning Coin 310" sx="1.0" sy="1.0" x="128" y="1216" z="0"/>
+        <actor a="0.0" aid="313" c="false" group="4" id="15" name="Spinning Coin 313" sx="1.0" sy="1.0" x="32" y="1216" z="0"/>
+        <actor a="0.0" aid="312" c="false" group="4" id="15" name="Spinning Coin 312" sx="1.0" sy="1.0" x="64" y="1216" z="0"/>
+        <actor a="0.0" aid="315" c="false" group="4" id="15" name="Spinning Coin 315" sx="1.0" sy="1.0" x="32" y="1152" z="0"/>
+        <actor a="0.0" aid="314" c="false" group="4" id="15" name="Spinning Coin 314" sx="1.0" sy="1.0" x="32" y="1184" z="0"/>
+        <actor a="0.0" aid="317" c="false" group="4" id="15" name="Spinning Coin 317" sx="1.0" sy="1.0" x="32" y="1088" z="0"/>
+        <actor a="0.0" aid="316" c="false" group="4" id="15" name="Spinning Coin 316" sx="1.0" sy="1.0" x="32" y="1120" z="0"/>
+        <actor a="0.0" aid="319" c="false" group="4" id="15" name="Spinning Coin 319" sx="1.0" sy="1.0" x="96" y="672" z="0"/>
+        <actor a="0.0" aid="318" c="false" group="4" id="15" name="Spinning Coin 318" sx="1.0" sy="1.0" x="32" y="1056" z="0"/>
+        <actor a="0.0" aid="288" c="false" group="4" id="15" name="Spinning Coin 288" sx="1.0" sy="1.0" x="96" y="1024" z="0"/>
+        <actor a="0.0" aid="289" c="false" group="4" id="15" name="Spinning Coin 289" sx="1.0" sy="1.0" x="128" y="1024" z="0"/>
+        <actor a="0.0" aid="290" c="false" group="4" id="15" name="Spinning Coin 290" sx="1.0" sy="1.0" x="160" y="1024" z="0"/>
+        <actor a="0.0" aid="291" c="false" group="4" id="15" name="Spinning Coin 291" sx="1.0" sy="1.0" x="192" y="1024" z="0"/>
+        <actor a="0.0" aid="292" c="false" group="4" id="15" name="Spinning Coin 292" sx="1.0" sy="1.0" x="224" y="1024" z="0"/>
+        <actor a="0.0" aid="293" c="false" group="4" id="15" name="Spinning Coin 293" sx="1.0" sy="1.0" x="256" y="1024" z="0"/>
+        <actor a="0.0" aid="294" c="false" group="4" id="15" name="Spinning Coin 294" sx="1.0" sy="1.0" x="288" y="1024" z="0"/>
+        <actor a="0.0" aid="295" c="false" group="4" id="15" name="Spinning Coin 295" sx="1.0" sy="1.0" x="320" y="1024" z="0"/>
+        <actor a="0.0" aid="296" c="false" group="4" id="15" name="Spinning Coin 296" sx="1.0" sy="1.0" x="352" y="1024" z="0"/>
+        <actor a="0.0" aid="297" c="false" group="4" id="15" name="Spinning Coin 297" sx="1.0" sy="1.0" x="416" y="1056" z="0"/>
+        <actor a="0.0" aid="298" c="false" group="4" id="15" name="Spinning Coin 298" sx="1.0" sy="1.0" x="416" y="1088" z="0"/>
+        <actor a="0.0" aid="299" c="false" group="4" id="15" name="Spinning Coin 299" sx="1.0" sy="1.0" x="416" y="1120" z="0"/>
+        <actor a="0.0" aid="300" c="false" group="4" id="15" name="Spinning Coin 300" sx="1.0" sy="1.0" x="416" y="1152" z="0"/>
+        <actor a="0.0" aid="301" c="false" group="4" id="15" name="Spinning Coin 301" sx="1.0" sy="1.0" x="416" y="1184" z="0"/>
+        <actor a="0.0" aid="302" c="false" group="4" id="15" name="Spinning Coin 302" sx="1.0" sy="1.0" x="416" y="1216" z="0"/>
+        <actor a="0.0" aid="303" c="false" group="4" id="15" name="Spinning Coin 303" sx="1.0" sy="1.0" x="384" y="1216" z="0"/>
+        <actor a="0.0" aid="343" c="false" group="6" id="21" name="Super Car 343" sx="1.0" sy="1.0" x="192" y="896" z="0"/>
+        <actor a="0.0" aid="341" c="false" group="6" id="21" name="Super Car 341" sx="1.0" sy="1.0" x="64" y="128" z="0"/>
+        <actor a="0.0" aid="340" c="false" group="6" id="21" name="Super Car 340" sx="1.0" sy="1.0" x="320" y="160" z="0"/>
+        <actor a="0.0" aid="339" c="false" group="6" id="21" name="Super Car 339" sx="1.0" sy="1.0" x="197" y="252" z="0"/>
+        <actor a="0.0" aid="338" c="false" group="6" id="21" name="Super Car 338" sx="1.0" sy="1.0" x="192" y="384" z="0"/>
+        <actor a="0.0" aid="337" c="false" group="6" id="21" name="Super Car 337" sx="1.0" sy="1.0" x="192" y="576" z="0"/>
+        <actor a="0.0" aid="336" c="false" group="6" id="21" name="Super Car 336" sx="1.0" sy="1.0" x="192" y="704" z="0"/>
+        <actor a="0.0" aid="326" c="false" group="4" id="15" name="Spinning Coin 326" sx="1.0" sy="1.0" x="352" y="672" z="0"/>
+        <actor a="0.0" aid="327" c="false" group="4" id="15" name="Spinning Coin 327" sx="1.0" sy="1.0" x="96" y="352" z="0"/>
+        <actor a="0.0" aid="324" c="false" group="4" id="15" name="Spinning Coin 324" sx="1.0" sy="1.0" x="288" y="672" z="0"/>
+        <actor a="0.0" aid="325" c="false" group="4" id="15" name="Spinning Coin 325" sx="1.0" sy="1.0" x="320" y="672" z="0"/>
+        <actor a="0.0" aid="322" c="false" group="4" id="15" name="Spinning Coin 322" sx="1.0" sy="1.0" x="192" y="672" z="0"/>
+        <actor a="0.0" aid="323" c="false" group="4" id="15" name="Spinning Coin 323" sx="1.0" sy="1.0" x="256" y="672" z="0"/>
+        <actor a="0.0" aid="320" c="false" group="4" id="15" name="Spinning Coin 320" sx="1.0" sy="1.0" x="128" y="672" z="0"/>
+        <actor a="0.0" aid="321" c="false" group="4" id="15" name="Spinning Coin 321" sx="1.0" sy="1.0" x="160" y="672" z="0"/>
+        <actor a="0.0" aid="334" c="false" group="6" id="21" name="Super Car 334" sx="1.0" sy="1.0" x="320" y="800" z="0"/>
+        <actor a="0.0" aid="335" c="false" group="6" id="21" name="Super Car 335" sx="1.0" sy="1.0" x="64" y="800" z="0"/>
+        <actor a="0.0" aid="332" c="false" group="4" id="15" name="Spinning Coin 332" sx="1.0" sy="1.0" x="320" y="352" z="0"/>
+        <actor a="0.0" aid="333" c="false" group="4" id="15" name="Spinning Coin 333" sx="1.0" sy="1.0" x="352" y="352" z="0"/>
+        <actor a="0.0" aid="330" c="false" group="4" id="15" name="Spinning Coin 330" sx="1.0" sy="1.0" x="256" y="352" z="0"/>
+        <actor a="0.0" aid="331" c="false" group="4" id="15" name="Spinning Coin 331" sx="1.0" sy="1.0" x="288" y="352" z="0"/>
+        <actor a="0.0" aid="328" c="false" group="4" id="15" name="Spinning Coin 328" sx="1.0" sy="1.0" x="128" y="352" z="0"/>
+        <actor a="0.0" aid="329" c="false" group="4" id="15" name="Spinning Coin 329" sx="1.0" sy="1.0" x="160" y="352" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="21">
+            <prop id="1" list="0" val="0"/>
+            <prop id="2" list="0" val="2"/>
+            <prop id="4" list="0" val="6"/>
+            <prop id="7" list="0" val="false"/>
+            <prop id="8" list="0" val="false"/>
+            <prop id="9" list="0" val="No Control"/>
+            <prop id="10" list="0" val="0.5"/>
+            <prop id="11" list="0" val="0.5"/>
+            <prop id="12" list="0" val="Fade"/>
+        </s>
+        <s enabled="true" id="20">
+            <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="2"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="false"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="8,0.0,1280.0,0.0,0.0,32.0,0.0,32.0,1248.0,448.0,1248.0,448.0,0.0,480.0,0.0,480.0,1280.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

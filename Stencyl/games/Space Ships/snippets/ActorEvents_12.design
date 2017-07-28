@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <create-actor3 comment="false" x="26" y="42">
+                    <ACTORTYPE eid="4" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <push-shove comment="false" x="26" y="82">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="-1"/>
+                    <int id="4" val="40"/>
+                </push-shove>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <actors-in-group comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-val-6-1 comment="false" x="37" y="72">
+                            <actor-in-group comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-1>
+                    </group>
+                    <GROUP eid="0" id="0"/>
+                </actors-in-group>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

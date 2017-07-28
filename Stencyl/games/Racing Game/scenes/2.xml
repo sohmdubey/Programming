@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="26" extheight="1344" extwidth="544" extx="-32" exty="-32" format="3.3.0" gravx="-0.0" gravy="0.0" height="1280" id="2" name="Play Again" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="255" green="0" red="0"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="40" name="Play 1" sx="1.0" sy="1.0" x="128" y="480" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="38" name="You Win 2" sx="1.0" sy="1.0" x="160" y="160" z="0"/>
+        <actor a="0.0" aid="3" c="true" group="0" id="0" name="RedCar 3" sx="1.0" sy="1.0" x="192" y="288" z="0">
+            <snippets>
+                <s enabled="true" id="0"/>
+                <s enabled="true" id="16">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="false" id="15">
+                    <prop id="1" list="0" val="-1"/>
+                    <prop id="2" list="0" val="-1"/>
+                    <prop id="3" list="0" val="-1"/>
+                    <prop id="4" list="0" val="-1"/>
+                    <prop id="5" list="0" val="20"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="4" c="false" group="4" id="15" name="Spinning Coin 4" sx="1.0" sy="1.0" x="160" y="64" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="15" name="Spinning Coin 5" sx="1.0" sy="1.0" x="288" y="64" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="15" name="Spinning Coin 6" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="15" name="Spinning Coin 7" sx="1.0" sy="1.0" x="224" y="224" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="4" id="15" name="Spinning Coin 8" sx="1.0" sy="1.0" x="224" y="416" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="15" name="Spinning Coin 9" sx="1.0" sy="1.0" x="128" y="608" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="15" name="Spinning Coin 10" sx="1.0" sy="1.0" x="288" y="608" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

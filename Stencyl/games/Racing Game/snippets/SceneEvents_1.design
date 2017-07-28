@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-24-1 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-24-1>
+                <dolater comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <set-val-24-1 comment="false" x="37" y="94">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-24-1>
+                    </group>
+                    <int id="0" val="5"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <ACTOR eid="107" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="2" id="-1">
+                        <scene-reload-through comment="false" x="37" y="77">
+                            <int id="0" val="0"/>
+                            <int id="1" val="3"/>
+                        </scene-reload-through>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <ACTORTYPE eid="34" id="0"/>
+            <ACTORTYPE eid="0" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
